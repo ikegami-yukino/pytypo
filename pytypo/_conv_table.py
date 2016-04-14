@@ -6866,6 +6866,7 @@ eng_typo = {
     "speen": "speed",
     "speical": "special",
     "spended": "spent",
+    "speling": "spelling",
     "spermatazoa": "spermatozoa",
     "spermatazoon": "spermatozoon",
     "spilts": "splits",
