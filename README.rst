@@ -49,7 +49,7 @@ correct sentence
 - correct_sentence(str)
 
 
-correct sentence
+correct word
 --------------------------------------------
 
 ::
