@@ -32,6 +32,7 @@ setup(
         'Topic :: Text Processing',
         'Natural Language :: English'
     ],
+    package_data={'pytypo': ['*.json']},
     long_description='%s\n\n%s' % (open('README.rst', encoding='utf8').read(),
                                    open('CHANGES.rst', encoding='utf8').read())
 )
