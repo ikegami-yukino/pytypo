@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name='pytypo',
     packages=find_packages(exclude=['test']),
-    version='0.1.0',
+    version='0.1.1',
     license='MIT License',
     platforms=['POSIX', 'Windows', 'Unix', 'MacOS'],
     description=('corrects English spelling mistakes and normalize.'
