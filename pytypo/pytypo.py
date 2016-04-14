@@ -13,7 +13,7 @@ def cut_repeat(text, threshold):
     """Reduce repeated characters until threshold
     Param:
         <str> text
-        <int> threshould
+        <int> threshold
     Return:
         <str> result
     """
