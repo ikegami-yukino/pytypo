@@ -2,7 +2,6 @@
 from sys import version_info
 import re
 from . import _conv_table
-from .estimate import estimate
 
 re_symbol = re.compile("[^a-zA-Z0-9']{2,256}$")
 
@@ -46,8 +45,6 @@ def correct(word):
     normalized_word = _conv_table.eng_lengthened.get(word, word)
     if normalized_word == word:
         normalized_word = _conv_table.eng_typo.get(word, word)
-    if normalized_word == word:
-        normalized_word = estimate(word)
     if suffix_symbol:
         return (normalized_word + cut_repeat(suffix_symbol[0], 1))
     return normalized_word

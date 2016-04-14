@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name='pytypo',
     packages=find_packages(exclude=['test']),
-    version='0.1',
+    version='0.1.0',
     license='MIT License',
     platforms=['POSIX', 'Windows', 'Unix', 'MacOS'],
     description=('corrects English spelling mistakes and normalize.'
@@ -32,7 +32,6 @@ setup(
         'Topic :: Text Processing',
         'Natural Language :: English'
     ],
-    package_data={'pytypo': ['*.json']},
     long_description='%s\n\n%s' % (open('README.rst', encoding='utf8').read(),
                                    open('CHANGES.rst', encoding='utf8').read())
 )
