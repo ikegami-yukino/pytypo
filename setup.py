@@ -1,19 +1,20 @@
 # -*- coding: utf-8 -*-
+from codecs import open
 from setuptools import setup, find_packages
 
 
 setup(
-    name='udon',
+    name='pytypo',
     packages=find_packages(exclude=['test']),
-    version='0.1.1',
+    version='0.1',
     license='MIT License',
     platforms=['POSIX', 'Windows', 'Unix', 'MacOS'],
-    description=('Normalizing English lengthened expression having repeating letters.'
+    description=('corrects English spelling mistakes and normalize.'
                  ' (e.g., "cooooooooooooooollllllllllllll" to "cool")'),
     author='Yukino Ikegami',
-    author_email='yukino_0131@me.com',
-    url='https://github.com/ikegami-yukino/udon',
-    keywords=['normalize', 'lengthened expression', 'English'],
+    author_email='yknikgm@gmail.com',
+    url='https://github.com/ikegami-yukino/pytypo',
+    keywords=['normalize', 'lengthened expression', 'English', 'typo', 'spelling'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: MacOS',
@@ -24,9 +25,9 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'Topic :: Utilities',
         'Topic :: Software Development',
         'Topic :: Text Processing',
         'Natural Language :: English'
