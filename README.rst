@@ -1,6 +1,6 @@
 pytypo
 ===========
-|travis| |coveralls| |downloads| |pyversion| |version| |license|
+|travis| |coveralls| |landscape| |downloads| |pyversion| |version| |license|
 
 pytypo corrects English spelling mistakes.
 That feature is based on TYPO CORPUS (http://luululu.com/tweet/)
@@ -89,6 +89,10 @@ License
 .. |coveralls| image:: https://coveralls.io/repos/ikegami-yukino/pytypo/badge.svg?branch=master&service=github
     :target: https://coveralls.io/github/ikegami-yukino/pytypo?branch=master
     :alt: coveralls.io
+
+.. |landscape| image:: https://landscape.io/github/ikegami-yukino/pytypo/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/ikegami-yukino/pytypo/master
+   :alt: Code Health
 
 .. |downloads| image:: https://img.shields.io/pypi/dm/pytypo.svg
     :target: http://pypi.python.org/pypi/pytypo/
