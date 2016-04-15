@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 from codecs import open
+import os
+import re
 from setuptools import setup, find_packages
 
+
+with open(os.path.join('pytypo', '__init__.py'), 'r', encoding='utf8') as f:
+    version = re.compile(
+        r".*__version__ = '(.*?)'", re.S).match(f.read()).group(1)
 
 setup(
     name='pytypo',
     packages=find_packages(exclude=['test']),
-    version='0.1.1',
+    version=version,
     license='MIT License',
     platforms=['POSIX', 'Windows', 'Unix', 'MacOS'],
     description=('corrects English spelling mistakes and normalize.'
