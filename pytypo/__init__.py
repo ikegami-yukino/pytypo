@@ -3,8 +3,9 @@
 
 This module corrects spelling mistake.
 That feature is based on TYPO CORPUS (http://luululu.com/tweet/)
+and Wikipedia (https://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines)
 
-And this module normalizes also lengthened English expression having repeating letters.
+Also this module normalizes lengthened English expression having repeating letters.
 (e.g., this module converts "cooooooooooooooollllllllllllll" to "cool")
 
 That feature is based on the following paper:
@@ -27,8 +28,8 @@ Usage:
 """
 from . import pytypo
 
-VERSION = (0, 2, 0)
-__version__ = '0.2.0'
+VERSION = (0, 3, 0)
+__version__ = '0.3.0'
 __all__ = ['correct', 'correct_sentence', 'cut_repeat']
 
 correct = pytypo.correct

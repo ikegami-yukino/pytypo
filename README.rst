@@ -4,6 +4,7 @@ pytypo
 
 pytypo corrects English spelling mistakes.
 That feature is based on TYPO CORPUS (http://luululu.com/tweet/)
+and Wikipedia (https://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines)
 
 And this module normalizes also lengthened English expression having repeating letters.
 (e.g., this module converts "cooooooooooooooollllllllllllll" to "cool")
