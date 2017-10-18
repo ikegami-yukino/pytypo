@@ -12,10 +12,3 @@ script:
   - "nosetests --with-coverage --cover-package=pytypo"
 after_success:
   - coveralls
-
-notifications:
-  email:
-    recipients:
-      - yukino0131@me.com
-    on_success: always
-    on_failure: always
